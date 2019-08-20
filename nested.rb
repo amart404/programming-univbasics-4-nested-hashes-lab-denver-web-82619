@@ -88,7 +88,7 @@ def adding_matz
         :languages => ["LISP", "C"]
       }
     }
-    programmer_hash = new_hash.merge
+    programmer_hash = new_hash.merge(programmer_hash)
   end
 
 def changing_alan
